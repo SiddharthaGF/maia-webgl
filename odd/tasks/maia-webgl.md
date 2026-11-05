@@ -59,3 +59,8 @@
   condiciones de borde, y se usan 40 armónicos con base espacial precomputada.
 - **L7** — Captura del modal de tablas y verificación de los 28 registros, 43
   tests y bundle de producción.
+
+- **L8** — RDD: `assess` del commit de docs = `passive`; UI, escenas y core =
+  `under_budget`. Sin review obligatoria.
+- **L9** — Verificación final: 43 tests, typecheck, build de producción (37.6 kB
+  JS) y captura del bundle servido con `vite preview`.
